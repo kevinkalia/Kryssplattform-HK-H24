@@ -13,9 +13,7 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.forelesning.kryssplatformH24",
-      "googleServicesFile": "./GoogleService-Info.plist"
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
@@ -30,7 +28,6 @@
     },
     "plugins": [
       "expo-router",
-      "@react-native-google-signin/google-signin",
       [
         "expo-image-picker",
         {
